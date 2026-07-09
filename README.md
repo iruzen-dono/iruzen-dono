@@ -40,7 +40,7 @@ I build tools for **AI agents** and **SaaS products** — mostly Python, TypeScr
 ### 📫 Reach me
 
 - 🐦 X: [@iruzendono](https://twitter.com/iruzendono)
-- 💬 Discord: `iruzen`
+- 💬 Discord: `@iruzenn`
 - 🌍 Based in **Lomé, Togo**
 
 ---
