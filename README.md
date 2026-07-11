@@ -90,7 +90,7 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 ### 📫 Reach me
 
 - 🐦 X: [@iruzendono](https://twitter.com/iruzendono)
-- 💬 Discord: `iruzen`
+- 💬 Discord: `@iruzenn` Telegram: `@Am_The_CEO`
 - 🌍 Based in **Lomé, Togo**
 
 ---
