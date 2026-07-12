@@ -80,8 +80,8 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 <!--RECENT_ACTIVITY_START-->
 📦 [memory-vault](https://github.com/iruzen-dono/memory-vault) — v0.2.0: format pack v1.1.0, hooks on_session, webhook delivery  
 🆕 [workless](https://github.com/iruzen-dono/workless) — Open-source workflow engine published (Laravel + Next.js + React Flow)  
-🔧 [hermes-vault](https://github.com/iruzen-dono/hermes-vault) — Obsidian vault restructured as library (~112 files, fully linked)  
-♻️ [quotask](https://github.com/iruzen-dono/quotask) — Stripe → Lemon Squeezy migration (feat/lemon-squeezy-migration)  
+🔧 `hermes-vault` — Obsidian vault restructured as library (~112 files, fully linked)  
+♻️ `quotask` — Stripe → Lemon Squeezy migration (feat/lemon-squeezy-migration)  
 📦 [portfolio-terminal](https://github.com/iruzen-dono/portfolio-terminal) — Terminal-themed portfolio with /help, /stats commands  
 <!--RECENT_ACTIVITY_END-->
 
