@@ -10,15 +10,15 @@ I build tools for **AI agents** and **SaaS products** — mostly Python, TypeScr
 I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousresearch/hermes-agent) and indie SaaS apps built with Next.js / Drizzle / Neon.
 
 **Agent tools:**
-- [**memory-vault**](https://github.com/iruzen-dono/memory-vault) — Package AI agent sessions into portable `.hermes-memory` context packs (plugin for Hermes Agent)
+- [**memory-vault**](https://github.com/iruzen-dono/memory-vault) — Package AI agent sessions into portable `.hermes-memory` context packs (plugin for Hermes Agent) — v0.2.0
 - [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) — Deep project scanner → generates AGENTS.md, CLAUDE.md, vault notes
 - [**hermes-plugin-gen**](https://github.com/iruzen-dono/hermes-plugin-gen) — NLP-to-plugin scaffolder for Hermes Agent
-- [**workless**](https://github.com/iruzen-dono/workless) — Open-source workflow engine: visual DAG builder, webhooks, scheduling (Laravel + Next.js)
-- [**portfolio-terminal**](https://github.com/iruzen-dono/portfolio-terminal) — Terminal-themed developer portfolio (Next.js)
+- [**workless**](https://github.com/iruzen-dono/workless) — Open-source workflow engine: visual DAG builder, webhooks, scheduling (Laravel + Next.js + React Flow)
+- [**portfolio-terminal**](https://github.com/iruzen-dono/portfolio-terminal) — Terminal-themed developer portfolio with /help, /stats, /social commands
 
 **SaaS experiments:**
-- `Quotask` — Proposals & invoicing (Next.js + Drizzle + Lemon Squeezy)
-- `LandlordKit` — Rental management for 1-10 units (Next.js + Drizzle + Neon + Stripe)
+- `Quotask` — Proposals & invoicing (Next.js + Drizzle + Lemon Squeezy store#415343)
+- `LandlordKit` — Rental management for 1-10 units (Next.js + Drizzle + Neon + Stripe) — MVP complete
 - `TradeQuote` — Quick trades & quoting
 
 ---
@@ -52,6 +52,10 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=iruzen-dono&theme=github_dark" height="160" />
 </div>
 
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=iruzen-dono&theme=radical&no-frame=true&no-bg=true&row=2&column=3" width="600" alt="GitHub Trophies" />
+</p>
+
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=iruzen-dono&theme=github-dark-blue" height="160" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=iruzen-dono&theme=react-dark&hide_border=true&area=true" width="720" />
@@ -71,18 +75,20 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 ### 🏆 Open source contributions
 
 - [**Hermes Browser Extension**](https://github.com/abundantbeing/hermes-browser-extension/pulls?q=is%3Apr+author%3Airuzen-dono) — 4 merged PRs: multi-tab picker, slash commands, DOM improvements, ESLint config, CI fixes
-- [**Hermes Agent**](https://github.com/nousresearch/hermes-agent) — Ecosystem plugins and companion tools
+- [**Hermes Agent**](https://github.com/nousresearch/hermes-agent) — Ecosystem plugins (memory-vault, plugin-gen, project-oracle) and companion tools
+- **Late 2025 Highlights** — CI/CD setup, profile fixes, and lint improvements across 5 repos
 
 ---
 
 ### 📈 Recent activity
 
 <!--RECENT_ACTIVITY_START-->
-📦 [memory-vault](https://github.com/iruzen-dono/memory-vault) — v0.2.0: format pack v1.1.0, hooks on_session, webhook delivery  
-🆕 [workless](https://github.com/iruzen-dono/workless) — Open-source workflow engine published (Laravel + Next.js + React Flow)  
-🔧 `hermes-vault` — Obsidian vault restructured as library (~112 files, fully linked)  
-♻️ `quotask` — Stripe → Lemon Squeezy migration (feat/lemon-squeezy-migration)  
-📦 [portfolio-terminal](https://github.com/iruzen-dono/portfolio-terminal) — Terminal-themed portfolio with /help, /stats commands  
+✅ profile/Java-sprinboot — Fixed dead links, added MIT license + demo warnings
+🔄 hermes-plugin-gen — Added GitHub Actions CI (compileall + ruff), test suite, pyproject.toml
+🔄 hermes-project-oracle — Added GitHub Actions CI (pytest + ruff + compileall), test suite
+📝 workless — Expanded README with features, quick start, and architecture overview
+📦 [memory-vault](https://github.com/iruzen-dono/memory-vault) — v0.2.0: format pack v1.1.0, hooks on_session, webhook delivery
+🆕 [workless](https://github.com/iruzen-dono/workless) — Open-source workflow engine published (Laravel + Next.js + React Flow)
 <!--RECENT_ACTIVITY_END-->
 
 ---
@@ -91,6 +97,7 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 
 - 🐦 X: [@iruzendono](https://twitter.com/iruzendono)
 - 💬 Discord: `@iruzenn` Telegram: `@Am_The_CEO`
+- 🤖 Telegram bot: [@Comphermes_bot](https://t.me/Comphermes_bot)
 - 🌍 Based in **Lomé, Togo**
 
 ---
