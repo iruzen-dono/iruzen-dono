@@ -10,16 +10,17 @@ I build tools for **AI agents** and **SaaS products** — mostly Python, TypeScr
 I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousresearch/hermes-agent) and indie SaaS apps built with Next.js / Drizzle / Neon.
 
 **Agent tools:**
+- [**XEARN**](https://github.com/iruzen-dono/XEARN) — Pan-African digital micro-income platform: NestJS 11 + Next.js 15 + Expo (mobile). 40+ API endpoints, gamification, admin panel, Mobile Money payments 🇹🇬
+- [**workless**](https://github.com/iruzen-dono/workless) — Open-source workflow engine: visual DAG builder, webhooks, scheduling (Laravel + Next.js + React Flow)
 - [**memory-vault**](https://github.com/iruzen-dono/memory-vault) — Package AI agent sessions into portable `.hermes-memory` context packs (plugin for Hermes Agent) — v0.2.0
 - [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) — Deep project scanner → generates AGENTS.md, CLAUDE.md, vault notes
 - [**hermes-plugin-gen**](https://github.com/iruzen-dono/hermes-plugin-gen) — NLP-to-plugin scaffolder for Hermes Agent
-- [**workless**](https://github.com/iruzen-dono/workless) — Open-source workflow engine: visual DAG builder, webhooks, scheduling (Laravel + Next.js + React Flow)
 - [**portfolio-terminal**](https://github.com/iruzen-dono/portfolio-terminal) — Terminal-themed developer portfolio with /help, /stats, /social commands
 
 **SaaS experiments:**
-- `Quotask` — Proposals & invoicing (Next.js + Drizzle + Lemon Squeezy store#415343)
-- `LandlordKit` — Rental management for 1-10 units (Next.js + Drizzle + Neon + Stripe) — MVP complete
-- `TradeQuote` — Quick trades & quoting
+- [**Quotask**](https://github.com/iruzen-dono/quotask) — Proposals & invoicing (Next.js + Drizzle + Lemon Squeezy)
+- [**LandlordKit**](https://github.com/iruzen-dono/landlord-kit) — Rental management for 1-10 units (Next.js + Drizzle + Neon + Stripe)
+- [**TradeQuote**](https://github.com/iruzen-dono/trade-quote) — Trading charting & analysis (Hyperliquid + Binance + Next.js)
 
 ---
 
@@ -29,9 +30,12 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
   <img src="https://img.shields.io/badge/Drizzle-ADF295?style=for-the-badge&logo=drizzle&logoColor=black" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=black" />
