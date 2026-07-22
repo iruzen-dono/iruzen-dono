@@ -56,10 +56,6 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=iruzen-dono&theme=github_dark" height="160" />
 </div>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=iruzen-dono&theme=radical&no-frame=true&no-bg=true&row=2&column=3" width="600" alt="GitHub Trophies" />
-</p>
-
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=iruzen-dono&theme=github-dark-blue" height="160" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=iruzen-dono&theme=react-dark&hide_border=true&area=true" width="720" />
