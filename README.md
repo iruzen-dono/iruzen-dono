@@ -12,7 +12,7 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 **Agent tools:**
 - [**XEARN**](https://github.com/iruzen-dono/XEARN) — Pan-African digital micro-income platform: NestJS 11 + Next.js 15 + Expo (mobile). 40+ API endpoints, gamification, admin panel, Mobile Money payments 🇹🇬
 - [**workless**](https://github.com/iruzen-dono/workless) — Open-source workflow engine: visual DAG builder, webhooks, scheduling (Laravel + Next.js + React Flow)
-- [**memory-vault**](https://github.com/iruzen-dono/memory-vault) — Package AI agent sessions into portable `.hermes-memory` context packs (plugin for Hermes Agent) — v0.2.0
+- [**memory-vault**](https://github.com/iruzen-dono/memory-vault) — Package AI agent sessions into portable `.hermes-memory` context packs (plugin for Hermes Agent) — v0.2.0 · [PyPI](https://pypi.org/project/memory-vault/) `pip install memory-vault`
 - [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) — Deep project scanner → generates AGENTS.md, CLAUDE.md, vault notes
 - [**hermes-plugin-gen**](https://github.com/iruzen-dono/hermes-plugin-gen) — NLP-to-plugin scaffolder for Hermes Agent
 - [**portfolio-terminal**](https://github.com/iruzen-dono/portfolio-terminal) — Terminal-themed developer portfolio with /help, /stats, /social commands
@@ -83,12 +83,14 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 ### 📈 Recent activity
 
 <!--RECENT_ACTIVITY_START-->
+✅ [memory-vault](https://github.com/iruzen-dono/memory-vault) — Fixed CI: ruff import sorting (I001), unused imports (F401), f-strings (F541); merged duplicate workflows into one matrix CI (ubuntu+windows, py3.11-3.13)
+📦 [memory-vault](https://github.com/iruzen-dono/memory-vault) — README overhaul: PyPI badges + installation section (`pip install memory-vault`)
+🖥️ [portfolio-terminal](https://github.com/iruzen-dono/portfolio-terminal) — Added MIT license + live screenshot + demo section in README
+📝 quotask & landlord-kit — README overhaul (English, features, stack, roadmap) + MIT licenses
+🏷️ Added topics (6-9 per repo) across 7 public repos
 ✅ profile/Java-sprinboot — Fixed dead links, added MIT license + demo warnings
 🔄 hermes-plugin-gen — Added GitHub Actions CI (compileall + ruff), test suite, pyproject.toml
-🔄 hermes-project-oracle — Added GitHub Actions CI (pytest + ruff + compileall), test suite
-📝 workless — Expanded README with features, quick start, and architecture overview
 📦 [memory-vault](https://github.com/iruzen-dono/memory-vault) — v0.2.0: format pack v1.1.0, hooks on_session, webhook delivery
-🆕 [workless](https://github.com/iruzen-dono/workless) — Open-source workflow engine published (Laravel + Next.js + React Flow)
 <!--RECENT_ACTIVITY_END-->
 
 ---
