@@ -10,7 +10,6 @@ I build tools for **AI agents** and **SaaS products** — mostly Python, TypeScr
 I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousresearch/hermes-agent) and indie SaaS apps built with Next.js / Drizzle / Neon.
 
 **Agent tools:**
-- [**XEARN**](https://github.com/iruzen-dono/XEARN) — Pan-African digital micro-income platform: NestJS 11 + Next.js 15 + Expo (mobile). 40+ API endpoints, gamification, admin panel, Mobile Money payments 🇹🇬
 - [**workless**](https://github.com/iruzen-dono/workless) — Open-source workflow engine: visual DAG builder, webhooks, scheduling (Laravel + Next.js + React Flow)
 - [**memory-vault**](https://github.com/iruzen-dono/memory-vault) — Package AI agent sessions into portable `.hermes-memory` context packs (plugin for Hermes Agent) — v0.2.0 · [PyPI](https://pypi.org/project/memory-vault/) `pip install memory-vault`
 - [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) — Deep project scanner → generates AGENTS.md, CLAUDE.md, vault notes
@@ -18,6 +17,7 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 - [**portfolio-terminal**](https://github.com/iruzen-dono/portfolio-terminal) — Terminal-themed developer portfolio with /help, /stats, /social commands
 
 **SaaS experiments:**
+- [**XEARN**](https://github.com/iruzen-dono/XEARN) — Pan-African digital micro-income platform: NestJS 11 + Next.js 15 + Expo (mobile). 40+ API endpoints, gamification, admin panel, Mobile Money payments 🇹🇬
 - [**Quotask**](https://github.com/iruzen-dono/quotask) — Proposals & invoicing (Next.js + Drizzle + Lemon Squeezy)
 - [**LandlordKit**](https://github.com/iruzen-dono/landlord-kit) — Rental management for 1-10 units (Next.js + Drizzle + Neon + Stripe)
 - [**TradeQuote**](https://github.com/iruzen-dono/trade-quote) — Trading charting & analysis (Hyperliquid + Binance + Next.js)
@@ -74,9 +74,9 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 
 ### 🏆 Open source contributions
 
-- [**Hermes Browser Extension**](https://github.com/abundantbeing/hermes-browser-extension/pulls?q=is%3Apr+author%3Airuzen-dono) — 4 merged PRs: multi-tab picker, slash commands, DOM improvements, ESLint config, CI fixes
+- [**Hermes Browser Extension**](https://github.com/abundantbeing/hermes-browser-extension/pulls?q=is%3Apr+author%3Airuzen-dono) — 6 merged PRs: multi-tab picker, slash commands, DOM improvements, ESLint config, CI fixes
 - [**Hermes Agent**](https://github.com/nousresearch/hermes-agent) — Ecosystem plugins (memory-vault, plugin-gen, project-oracle) and companion tools
-- **Late 2025 Highlights** — CI/CD setup, profile fixes, and lint improvements across 5 repos
+- **2025–2026 Highlights** — CI/CD setup, profile fixes, and lint improvements across 5 repos
 
 ---
 
