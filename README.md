@@ -11,8 +11,8 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 
 **Agent tools:**
 - [**workless**](https://github.com/iruzen-dono/workless) — Open-source workflow engine: visual DAG builder, webhooks, scheduling (Laravel + Next.js + React Flow)
-- [**memory-vault**](https://github.com/iruzen-dono/memory-vault) — Package AI agent sessions into portable `.hermes-memory` context packs (plugin for Hermes Agent) — v0.2.0 · [PyPI](https://pypi.org/project/memory-vault/) `pip install memory-vault`
-- [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) — Deep project scanner → generates AGENTS.md, CLAUDE.md, vault notes
+- [**memory-vault**](https://github.com/iruzen-dono/memory-vault) — Package AI agent sessions into portable `.hermes-memory` context packs (plugin for Hermes Agent) — v0.2.0
+- [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) — Deep project scanner → generates AGENTS.md, CLAUDE.md, vault notes — [PyPI](https://pypi.org/project/hermes-project-oracle/) `pip install hermes-project-oracle`
 - [**hermes-plugin-gen**](https://github.com/iruzen-dono/hermes-plugin-gen) — NLP-to-plugin scaffolder for Hermes Agent
 - [**portfolio-terminal**](https://github.com/iruzen-dono/portfolio-terminal) — Terminal-themed developer portfolio with /help, /stats, /social commands
 
