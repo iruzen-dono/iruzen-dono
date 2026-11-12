@@ -12,7 +12,7 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 **Agent tools:**
 - [**workless**](https://github.com/iruzen-dono/workless) — Open-source workflow engine: visual DAG builder, webhooks, scheduling (Laravel + Next.js + React Flow)
 - [**memory-vault**](https://github.com/iruzen-dono/memory-vault) — Package AI agent sessions into portable `.hermes-memory` context packs (plugin for Hermes Agent) — v0.2.0 · [PyPI](https://pypi.org/project/hermes-memory-vault/) `pip install hermes-memory-vault`
-- [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) — Deep project scanner → generates AGENTS.md, CLAUDE.md, vault notes — [PyPI](https://pypi.org/project/hermes-project-oracle/) `pip install hermes-project-oracle`
+- [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) — Context tools for coding agents: `oracle-scan` generates AGENTS.md/CLAUDE.md, `oracle-check` fails CI when that context drifts from the code, `oracle-lint` scores an existing context file for unfalsifiable rules — v2.3.0 · [PyPI](https://pypi.org/project/hermes-project-oracle/) `pip install hermes-project-oracle`
 - [**hermes-plugin-gen**](https://github.com/iruzen-dono/hermes-plugin-gen) — NLP-to-plugin scaffolder for Hermes Agent
 - [**portfolio-terminal**](https://github.com/iruzen-dono/portfolio-terminal) — Terminal-themed developer portfolio with /help, /stats, /social commands
 
@@ -20,7 +20,7 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 - [**XEARN**](https://github.com/iruzen-dono/XEARN) — Pan-African digital micro-income platform: NestJS 11 + Next.js 15 + Expo (mobile). 40+ API endpoints, gamification, admin panel, Mobile Money payments 🇹🇬
 - [**Quotask**](https://github.com/iruzen-dono/quotask) — Proposals & invoicing (Next.js + Drizzle + Lemon Squeezy)
 - [**LandlordKit**](https://github.com/iruzen-dono/landlord-kit) — Rental management for 1-10 units (Next.js + Drizzle + Neon + Stripe)
-- [**TradeQuote**](https://github.com/iruzen-dono/trade-quote) — Trading charting & analysis (Hyperliquid + Binance + Next.js)
+- [**TradeQuote**](https://github.com/iruzen-dono/trade-quote) — Quoting & proposal SaaS for service businesses: clients, line items, tax, PDF export, public accept/decline (Next.js 16 + Drizzle + Neon)
 
 ---
 
@@ -83,14 +83,14 @@ I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousres
 ### 📈 Recent activity
 
 <!--RECENT_ACTIVITY_START-->
-✅ [memory-vault](https://github.com/iruzen-dono/memory-vault) — Fixed CI: ruff import sorting (I001), unused imports (F401), f-strings (F541); merged duplicate workflows into one matrix CI (ubuntu+windows, py3.11-3.13)
-📦 [memory-vault](https://github.com/iruzen-dono/memory-vault) — README overhaul: PyPI badges + installation section (`pip install memory-vault`)
-🖥️ [portfolio-terminal](https://github.com/iruzen-dono/portfolio-terminal) — Added MIT license + live screenshot + demo section in README
-📝 quotask & landlord-kit — README overhaul (English, features, stack, roadmap) + MIT licenses
-🏷️ Added topics (6-9 per repo) across 7 public repos
-✅ profile/Java-sprinboot — Fixed dead links, added MIT license + demo warnings
-🔄 hermes-plugin-gen — Added GitHub Actions CI (compileall + ruff), test suite, pyproject.toml
-📦 [memory-vault](https://github.com/iruzen-dono/memory-vault) — v0.2.0: format pack v1.1.0, hooks on_session, webhook delivery
+🚀 [hermes-project-oracle](https://github.com/iruzen-dono/hermes-project-oracle) **v2.3.0** — `oracle-lint`: scores an existing AGENTS.md, sorting rules into what the repo confirms, what it contradicts, and what is unfalsifiable noise
+🛡️ [hermes-project-oracle](https://github.com/iruzen-dono/hermes-project-oracle) **v2.2.0** — `oracle-check`: fails CI when generated context drifts from the code. Compares manifest *contents*, since deleting a script leaves the file in place
+🧪 CI added to **trade-quote**, **portfolio-terminal** and **workless** — Next.js build, and the Laravel suite against a real PostgreSQL 16 service
+📄 [portfolio-terminal](https://github.com/iruzen-dono/portfolio-terminal) — resume now downloadable as a PDF in three variants, plus an Open Graph image for shares
+🧹 Repository cleanup — removed 8 stale forks, 7.4 GB freed, six repos with green CI
+✅ [memory-vault](https://github.com/iruzen-dono/memory-vault) — Fixed CI: ruff import sorting, unused imports, f-strings; merged duplicate workflows into one matrix CI
+📦 [hermes-memory-vault](https://pypi.org/project/hermes-memory-vault/) 0.2.0 on PyPI via Trusted Publishing (no stored token)
+🔄 hermes-plugin-gen — Added GitHub Actions CI, test suite, pyproject.toml
 <!--RECENT_ACTIVITY_END-->
 
 ---
