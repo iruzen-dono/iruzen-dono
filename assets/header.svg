@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="236" viewBox="0 0 860 236" role="img" aria-label="Terminal session: jules, tools for AI agents, building in public">
+  <title>jules — tools for AI agents</title>
+
+  <defs>
+    <clipPath id="c1"><rect x="42" y="58" width="0" height="22"><animate attributeName="width" from="0" to="128" begin="0.30s" dur="0.34s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="42" y="82" width="0" height="22"><animate attributeName="width" from="0" to="540" begin="0.78s" dur="0.62s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="42" y="112" width="0" height="22"><animate attributeName="width" from="0" to="200" begin="1.52s" dur="0.40s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="42" y="136" width="0" height="22"><animate attributeName="width" from="0" to="660" begin="2.06s" dur="0.74s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="42" y="166" width="0" height="22"><animate attributeName="width" from="0" to="176" begin="2.94s" dur="0.36s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c6"><rect x="42" y="190" width="0" height="22"><animate attributeName="width" from="0" to="422" begin="3.44s" dur="0.52s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="859" height="235" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0.5" y="0.5" width="3" height="235" rx="1.5" fill="#2f81f7"/>
+
+  <circle cx="26" cy="22" r="4.5" fill="#ff5f56"/>
+  <circle cx="43" cy="22" r="4.5" fill="#ffbd2e"/>
+  <circle cx="60" cy="22" r="4.5" fill="#27c93f"/>
+  <text x="82" y="26" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#6e7681">jules@lome — zsh — ~/iruzen-dono</text>
+  <line x1="1" y1="38" x2="859" y2="38" stroke="#21262d"/>
+
+  <g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13">
+    <g clip-path="url(#c1)">
+      <text x="42" y="72"><tspan fill="#2f81f7">$</tspan><tspan fill="#e6edf3"> whoami</tspan></text>
+    </g>
+    <g clip-path="url(#c2)" opacity="0.98">
+      <text x="42" y="96" fill="#8b949e">jules <tspan fill="#30363d">·</tspan> independent developer <tspan fill="#30363d">·</tspan> Lomé, Togo</text>
+    </g>
+
+    <g clip-path="url(#c3)">
+      <text x="42" y="126"><tspan fill="#2f81f7">$</tspan><tspan fill="#e6edf3"> ls ~/agent-tools</tspan></text>
+    </g>
+    <g clip-path="url(#c4)">
+      <text x="42" y="150" fill="#e6edf3">hermes-project-oracle <tspan fill="#2f81f7">memory-vault</tspan> hermes-plugin-gen <tspan fill="#8b949e">workless</tspan></text>
+    </g>
+
+    <g clip-path="url(#c5)">
+      <text x="42" y="180"><tspan fill="#2f81f7">$</tspan><tspan fill="#e6edf3"> cat ~/status</tspan></text>
+    </g>
+    <g clip-path="url(#c6)">
+      <text x="42" y="204" fill="#8b949e">building in public, one agent at a time</text>
+    </g>
+
+    <rect x="330" y="192" width="8" height="15" fill="#2f81f7" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.94;0.95;0.99;1" begin="3.98s" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

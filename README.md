@@ -1,117 +1,81 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=28&duration=3500&pause=1000&color=2F81F7&center=true&vCenter=true&width=500&lines=Hey+%F0%9F%91%8B+I'm+Jules;I+build+AI+agent+tools;Indie+hacker+from+Lom%C3%A9+%F0%9F%87%B9%E2%80%8F%F0%9F%87%AC" alt="Typing SVG" />
+  <img src="assets/header.svg" alt="Terminal session — jules, tools for AI agents" width="860" />
 </div>
 
----
+I build **tooling for AI coding agents** and ship indie SaaS from Lomé, Togo.
 
-### 🧰 What I build
+Most of my work sits on the unglamorous half of agent reliability: hand the model the right context, then fail the build the moment that context stops being true.
 
-I build tools for **AI agents** and **SaaS products** — mostly Python, TypeScript, and Next.js.
-I'm the creator of ecosystem tools for [Hermes Agent](https://github.com/nousresearch/hermes-agent) and indie SaaS apps built with Next.js / Drizzle / Neon.
-
-**Agent tools:**
-- [**workless**](https://github.com/iruzen-dono/workless) — Open-source workflow engine: visual DAG builder, webhooks, scheduling (Laravel + Next.js + React Flow)
-- [**memory-vault**](https://github.com/iruzen-dono/memory-vault) — Package AI agent sessions into portable `.hermes-memory` context packs (plugin for Hermes Agent) — v0.2.0 · [PyPI](https://pypi.org/project/hermes-memory-vault/) `pip install hermes-memory-vault`
-- [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) — Context tools for coding agents: `oracle-scan` generates AGENTS.md/CLAUDE.md, `oracle-check` fails CI when that context drifts from the code, `oracle-lint` scores an existing context file for unfalsifiable rules — v2.3.0 · [PyPI](https://pypi.org/project/hermes-project-oracle/) `pip install hermes-project-oracle`
-- [**hermes-plugin-gen**](https://github.com/iruzen-dono/hermes-plugin-gen) — NLP-to-plugin scaffolder for Hermes Agent
-- [**portfolio-terminal**](https://github.com/iruzen-dono/portfolio-terminal) — Terminal-themed developer portfolio with /help, /stats, /social commands
-
-**SaaS experiments:**
-- [**XEARN**](https://github.com/iruzen-dono/XEARN) — Pan-African digital micro-income platform: NestJS 11 + Next.js 15 + Expo (mobile). 40+ API endpoints, gamification, admin panel, Mobile Money payments 🇹🇬
-- [**Quotask**](https://github.com/iruzen-dono/quotask) — Proposals & invoicing (Next.js + Drizzle + Lemon Squeezy)
-- [**LandlordKit**](https://github.com/iruzen-dono/landlord-kit) — Rental management for 1-10 units (Next.js + Drizzle + Neon + Stripe)
-- [**TradeQuote**](https://github.com/iruzen-dono/trade-quote) — Quoting & proposal SaaS for service businesses: clients, line items, tax, PDF export, public accept/decline (Next.js 16 + Drizzle + Neon)
+**Shipping now:** `hermes-project-oracle` 2.3.0 — generate `AGENTS.md`/`CLAUDE.md` from a repo, detect drift in CI, score the file for rules the code cannot actually verify.
 
 ---
 
-### 🛠️ Tech stack
+### Tools for agents
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Drizzle-ADF295?style=for-the-badge&logo=drizzle&logoColor=black" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=black" />
-  <img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" />
-</p>
+| Project | The problem it solves | Install |
+| :--- | :--- | :--- |
+| [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) | Context files rot silently. Scan the repo → generate the context file → `oracle-check` fails CI on drift → `oracle-lint` flags unfalsifiable rules. | `pip install hermes-project-oracle` |
+| [**memory-vault**](https://github.com/iruzen-dono/memory-vault) | Sessions disappear into chat history. Packs them into portable `.hermes-memory` context packs. | `pip install hermes-memory-vault` |
+| [**hermes-plugin-gen**](https://github.com/iruzen-dono/hermes-plugin-gen) | Writing a Hermes Agent plugin by hand. Generates a working scaffold from a description. | — |
+| [**workless**](https://github.com/iruzen-dono/workless) | Workflow automation you can self-host: visual DAG builder, webhooks, scheduling (Laravel + Next.js + React Flow). | — |
+| [**portfolio-terminal**](https://github.com/iruzen-dono/portfolio-terminal) | A portfolio that is not a dashboard template — 30+ commands, virtual filesystem, fr/en. | [live](https://portfolio-terminal-lake.vercel.app) |
 
----
+### SaaS
 
-### 📊 GitHub
+Product work lives in private repos. The public one:
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=iruzen-dono&theme=github_dark" alt="Profile summary" width="720" />
-</div>
+- [**XEARN**](https://github.com/iruzen-dono/XEARN) — pan-African digital micro-income platform. NestJS 11 + Next.js 15 + Expo, 40+ endpoints, mobile money payments.
 
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=iruzen-dono&theme=github_dark" height="160" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=iruzen-dono&theme=github_dark" height="160" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=iruzen-dono&theme=github_dark" height="160" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=iruzen-dono&theme=github-dark-blue" height="160" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iruzen-dono&theme=react-dark&hide_border=true&area=true" width="720" />
-</div>
-
-<p align="center">
-  <a href="https://github.com/iruzen-dono?tab=repositories">
-    <img src="https://img.shields.io/badge/View%20all%20repositories-2F81F7?style=for-the-badge&logo=github&logoColor=white" alt="View all repositories" />
-  </a>
-  <a href="https://github.com/iruzen-dono?tab=followers">
-    <img src="https://img.shields.io/github/followers/iruzen-dono?style=for-the-badge&color=2F81F7&labelColor=0d1117" alt="GitHub followers" />
-  </a>
-</p>
+Private: **Quotask** (proposals & invoicing, Lemon Squeezy billing) · **LandlordKit** (rental management, 1–10 units) · **TradeQuote** (quoting with line items, tax, PDF, public accept/decline). All Next.js + Drizzle + Neon.
 
 ---
 
-### 🏆 Open source contributions
+### GitHub
 
-- [**Hermes Browser Extension**](https://github.com/abundantbeing/hermes-browser-extension/pulls?q=is%3Apr+author%3Airuzen-dono) — 6 merged PRs: multi-tab picker, slash commands, DOM improvements, ESLint config, CI fixes
-- [**Hermes Agent**](https://github.com/nousresearch/hermes-agent) — Ecosystem plugins (memory-vault, plugin-gen, project-oracle) and companion tools
-- **2025–2026 Highlights** — CI/CD setup, profile fixes, and lint improvements across 5 repos
+<img src="assets/stats.svg?v=202611131310" alt="Contributions, merged pull requests, public repositories and PyPI downloads" width="800" />
 
----
+<img src="assets/heatmap.svg?v=202611131310" alt="Contribution heatmap for the last 12 months" width="800" />
 
-### 📈 Recent activity
+<img src="assets/langs.svg?v=202611131310" alt="Language breakdown by bytes across public repositories" width="800" />
 
-<!--RECENT_ACTIVITY_START-->
-🚀 [hermes-project-oracle](https://github.com/iruzen-dono/hermes-project-oracle) **v2.3.0** — `oracle-lint`: scores an existing AGENTS.md, sorting rules into what the repo confirms, what it contradicts, and what is unfalsifiable noise
-🛡️ [hermes-project-oracle](https://github.com/iruzen-dono/hermes-project-oracle) **v2.2.0** — `oracle-check`: fails CI when generated context drifts from the code. Compares manifest *contents*, since deleting a script leaves the file in place
-🧪 CI added to **trade-quote**, **portfolio-terminal** and **workless** — Next.js build, and the Laravel suite against a real PostgreSQL 16 service
-📄 [portfolio-terminal](https://github.com/iruzen-dono/portfolio-terminal) — resume now downloadable as a PDF in three variants, plus an Open Graph image for shares
-🧹 Repository cleanup — removed 8 stale forks, 7.4 GB freed, six repos with green CI
-✅ [memory-vault](https://github.com/iruzen-dono/memory-vault) — Fixed CI: ruff import sorting, unused imports, f-strings; merged duplicate workflows into one matrix CI
-📦 [hermes-memory-vault](https://pypi.org/project/hermes-memory-vault/) 0.2.0 on PyPI via Trusted Publishing (no stored token)
-🔄 hermes-plugin-gen — Added GitHub Actions CI, test suite, pyproject.toml
-<!--RECENT_ACTIVITY_END-->
+<sub>Cards are generated from the GitHub and PyPI APIs by [`scripts/readme_stats.py`](scripts/readme_stats.py) and refreshed every day — no third-party widget that can go down or start charging.</sub>
 
 ---
 
-### 📫 Reach me
+### Open source · merged upstream
 
-- 🐦 X: [@iruzendono](https://twitter.com/iruzendono)
-- 💬 Discord: `@iruzenn` Telegram: `@Am_The_CEO`
-- 🤖 Telegram bot: [@Comphermes_bot](https://t.me/Comphermes_bot)
-- 🌍 Based in **Lomé, Togo**
+| Repo | Pull requests |
+| :--- | :--- |
+| [**medusajs/medusa**](https://github.com/medusajs/medusa/pull/16006) | `#16006` — admin: handle deleted stock locations in the order fulfillment section |
+| [**neomjs/neo**](https://github.com/neomjs/neo/pulls?q=is%3Apr+author%3Airuzen-dono+is%3Amerged) | `#20834` — hold a curated issue for three days, not seven · `#20839` — publish count when a batched update closes |
+| [**hermes-browser-extension**](https://github.com/abundantbeing/hermes-browser-extension/pulls?q=is%3Apr+author%3Airuzen-dono+is%3Amerged) | 6 merged: multi-tab context picker, slash commands, DOM chip states, ESLint/Prettier, delegation results, model picker |
+| [**keisary/KeycePass**](https://github.com/keisary/KeycePass/pull/1) | `#1` — password manager fix |
+| [**meta/prophet**](https://github.com/facebook/prophet/pull/2784) | `#2784` — open: require `cmdstanpy` 1.3.2 so Windows source builds stop fetching a retired Rtools URL |
+
+### Recent activity
+
+- `2026-11-13` — **neomjs/neo**: batched collection updates now publish their count when they close
+- `2026-11-12` — **hermes-project-oracle 2.3.0**: `oracle-lint` sorts every rule into confirmed, contradicted, or unfalsifiable
+- `2026-11-12` — CI on **workless** (Laravel suite against PostgreSQL 16 + Next.js build), **trade-quote** and **portfolio-terminal**
+- `2026-11-12` — **portfolio-terminal**: résumé as a downloadable PDF in three variants, plus an Open Graph image
+- `2026-11-12` — **hermes-memory-vault 0.2.0** on PyPI via Trusted Publishing, no stored token
+- `2026-08-15` — **medusajs/medusa**: deleted stock locations no longer break the fulfillment panel
 
 ---
 
-<div align="center">
-  <sub><code>const status = "building in public, one agent at a time"</code></sub>
-</div>
+<sub>Python · TypeScript · Next.js · NestJS · Laravel · React · Expo · PostgreSQL · Drizzle · Prisma · Docker · Neon · Stripe</sub>
+
+### Reach me
+
+- X — [@iruzendono](https://twitter.com/iruzendono)
+- Discord `@iruzenn` · Telegram `@Am_The_CEO`
+- An agent answers for me — [@Comphermes_bot](https://t.me/Comphermes_bot)
+- Lomé, Togo 🇹🇬
 
 <div align="center">
   <sub>
-    <a href="https://github.com/iruzen-dono?tab=repositories">All repos</a> · 
-    <a href="https://portfolio-terminal-lake.vercel.app">Portfolio</a> · 
-    <a href="https://github.com/iruzen-dono/iruzen-dono">Profile</a>
+    <a href="https://github.com/iruzen-dono?tab=repositories">All repos</a> ·
+    <a href="https://portfolio-terminal-lake.vercel.app">Portfolio</a> ·
+    <a href="https://pypi.org/project/hermes-project-oracle/">PyPI</a>
   </sub>
 </div>

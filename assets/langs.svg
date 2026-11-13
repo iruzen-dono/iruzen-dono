@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="138" viewBox="0 0 800 138" role="img" aria-label="Languages by bytes">
+  <rect x="0.5" y="0.5" width="799" height="137" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0.5" y="0.5" width="3" height="137" rx="1.5" fill="#2f81f7"/>
+  <clipPath id="barclip"><rect x="24" y="44" width="0" height="14"><animate attributeName="width" from="0" to="752" begin="0.25s" dur="1.05s" fill="freeze"/></rect></clipPath>
+  <text x="24" y="26" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.4" fill="#8b949e">LANGUAGES BY BYTES · PUBLIC REPOS</text>
+  <g clip-path="url(#barclip)">
+    <rect x="24.00" y="44" width="377.64" height="14" fill="#3178c6"/>
+    <rect x="401.64" y="44" width="114.30" height="14" fill="#4f5d95"/>
+    <rect x="515.94" y="44" width="111.57" height="14" fill="#3572a5"/>
+    <rect x="627.51" y="44" width="37.51" height="14" fill="#663399"/>
+    <rect x="665.02" y="44" width="34.18" height="14" fill="#e3b341"/>
+    <rect x="699.21" y="44" width="26.93" height="14" fill="#e34c26"/>
+    <rect x="726.14" y="44" width="49.86" height="14" fill="#484f58"/>
+  </g>
+  <rect x="24" y="44" width="752" height="14" rx="7" fill="none" stroke="#30363d"/>
+  <rect x="24" y="78" width="8" height="8" rx="2" fill="#3178c6"/>
+  <text x="38" y="86" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">TypeScript</text>
+  <text x="256" y="86" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e">50.2%</text>
+  <rect x="274" y="78" width="8" height="8" rx="2" fill="#4f5d95"/>
+  <text x="288" y="86" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">PHP</text>
+  <text x="506" y="86" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e">15.2%</text>
+  <rect x="524" y="78" width="8" height="8" rx="2" fill="#3572a5"/>
+  <text x="538" y="86" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">Python</text>
+  <text x="756" y="86" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e">14.8%</text>
+  <rect x="24" y="98" width="8" height="8" rx="2" fill="#663399"/>
+  <text x="38" y="106" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">CSS</text>
+  <text x="256" y="106" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e">5.0%</text>
+  <rect x="274" y="98" width="8" height="8" rx="2" fill="#e3b341"/>
+  <text x="288" y="106" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">JavaScript</text>
+  <text x="506" y="106" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e">4.5%</text>
+  <rect x="524" y="98" width="8" height="8" rx="2" fill="#e34c26"/>
+  <text x="538" y="106" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">HTML</text>
+  <text x="756" y="106" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e">3.6%</text>
+  <rect x="24" y="118" width="8" height="8" rx="2" fill="#484f58"/>
+  <text x="38" y="126" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#e6edf3">Other</text>
+  <text x="256" y="126" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#8b949e">6.6%</text>
+</svg>
