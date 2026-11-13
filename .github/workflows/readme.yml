@@ -8,7 +8,7 @@ on:
   push:
     branches: [main]
     paths:
-      - "scripts/readme_stats.py"
+      - "scripts/readme_cards.py"
       - ".github/workflows/readme.yml"
 
 permissions:
@@ -31,7 +31,7 @@ jobs:
       - name: Regenerate the stat cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/readme_stats.py
+        run: python scripts/readme_cards.py
 
       - name: Commit if the numbers moved
         run: |

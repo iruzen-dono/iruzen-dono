@@ -1,48 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="236" viewBox="0 0 860 236" role="img" aria-label="Terminal session: jules, tools for AI agents, building in public">
-  <title>jules — tools for AI agents</title>
-
-  <defs>
-    <clipPath id="c1"><rect x="42" y="58" width="0" height="22"><animate attributeName="width" from="0" to="128" begin="0.30s" dur="0.34s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c2"><rect x="42" y="82" width="0" height="22"><animate attributeName="width" from="0" to="540" begin="0.78s" dur="0.62s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c3"><rect x="42" y="112" width="0" height="22"><animate attributeName="width" from="0" to="200" begin="1.52s" dur="0.40s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c4"><rect x="42" y="136" width="0" height="22"><animate attributeName="width" from="0" to="660" begin="2.06s" dur="0.74s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c5"><rect x="42" y="166" width="0" height="22"><animate attributeName="width" from="0" to="176" begin="2.94s" dur="0.36s" fill="freeze"/></rect></clipPath>
-    <clipPath id="c6"><rect x="42" y="190" width="0" height="22"><animate attributeName="width" from="0" to="422" begin="3.44s" dur="0.52s" fill="freeze"/></rect></clipPath>
-  </defs>
-
-  <rect x="0.5" y="0.5" width="859" height="235" rx="10" fill="#0d1117" stroke="#30363d"/>
-  <rect x="0.5" y="0.5" width="3" height="235" rx="1.5" fill="#2f81f7"/>
-
-  <circle cx="26" cy="22" r="4.5" fill="#ff5f56"/>
-  <circle cx="43" cy="22" r="4.5" fill="#ffbd2e"/>
-  <circle cx="60" cy="22" r="4.5" fill="#27c93f"/>
-  <text x="82" y="26" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="11" fill="#6e7681">jules@lome — zsh — ~/iruzen-dono</text>
-  <line x1="1" y1="38" x2="859" y2="38" stroke="#21262d"/>
-
-  <g font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace" font-size="13">
-    <g clip-path="url(#c1)">
-      <text x="42" y="72"><tspan fill="#2f81f7">$</tspan><tspan fill="#e6edf3"> whoami</tspan></text>
-    </g>
-    <g clip-path="url(#c2)" opacity="0.98">
-      <text x="42" y="96" fill="#8b949e">jules <tspan fill="#30363d">·</tspan> independent developer <tspan fill="#30363d">·</tspan> Lomé, Togo</text>
-    </g>
-
-    <g clip-path="url(#c3)">
-      <text x="42" y="126"><tspan fill="#2f81f7">$</tspan><tspan fill="#e6edf3"> ls ~/agent-tools</tspan></text>
-    </g>
-    <g clip-path="url(#c4)">
-      <text x="42" y="150" fill="#e6edf3">hermes-project-oracle <tspan fill="#2f81f7">memory-vault</tspan> hermes-plugin-gen <tspan fill="#8b949e">workless</tspan></text>
-    </g>
-
-    <g clip-path="url(#c5)">
-      <text x="42" y="180"><tspan fill="#2f81f7">$</tspan><tspan fill="#e6edf3"> cat ~/status</tspan></text>
-    </g>
-    <g clip-path="url(#c6)">
-      <text x="42" y="204" fill="#8b949e">building in public, one agent at a time</text>
-    </g>
-
-    <rect x="330" y="192" width="8" height="15" fill="#2f81f7" opacity="0">
-      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.94;0.95;0.99;1" begin="3.98s" dur="1.1s" repeatCount="indefinite"/>
-    </rect>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" role="img" aria-label="jules zhou — profile">
+<rect x="0.5" y="0.5" width="859" height="299" rx="10" fill="#0d1117" stroke="#232c38"/>
+<rect x="0.5" y="0.5" width="3" height="299" rx="1.5" fill="#2f81f7"/>
+<clipPath id="intro"><rect x="30" y="40" width="0" height="86"><animate attributeName="width" from="0" to="600" begin="0.15s" dur="0.7s" fill="freeze"/></rect></clipPath>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.05s" dur="0.4s" fill="freeze"/>
+<rect x="30" y="42" width="104" height="104" rx="6" fill="#0f141b" stroke="#232c38"/>
+<text x="82" y="108" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="38" fill="#e6edf3" text-anchor="middle" font-weight="700" letter-spacing="1">JZ</text>
+</g>
+<text x="82" y="166" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="middle" letter-spacing="1.4">iruzen-dono</text>
+<g clip-path="url(#intro)">
+<text x="160" y="74" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="26" fill="#e6edf3" font-weight="700" letter-spacing="-0.4">jules zhou</text>
+<text x="160" y="94" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#909dab">I build the unglamorous half of agent reliability:</text>
+<text x="160" y="110" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#909dab">give the model the right context, break the build when it rots.</text>
+</g>
+<line x1="160" y1="126" x2="830" y2="126" stroke="#1b2430"/>
+<g opacity="0" transform="translate(-6,0)"><animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.35s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="-6 0" to="0 0" begin="0.55s" dur="0.35s" fill="freeze"/>
+<text x="160" y="150" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#2f81f7" font-weight="600" letter-spacing="1.6">location</text>
+<text x="258" y="150" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#e6edf3">Lomé, Togo · UTC±0 · remote-first</text>
+</g>
+<g opacity="0" transform="translate(-6,0)"><animate attributeName="opacity" from="0" to="1" begin="0.62s" dur="0.35s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="-6 0" to="0 0" begin="0.62s" dur="0.35s" fill="freeze"/>
+<text x="160" y="171" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#2f81f7" font-weight="600" letter-spacing="1.6">role</text>
+<text x="258" y="171" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#e6edf3">full-stack developer · ai-agent tooling</text>
+</g>
+<g opacity="0" transform="translate(-6,0)"><animate attributeName="opacity" from="0" to="1" begin="0.70s" dur="0.35s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="-6 0" to="0 0" begin="0.70s" dur="0.35s" fill="freeze"/>
+<text x="160" y="192" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#2f81f7" font-weight="600" letter-spacing="1.6">now</text>
+<text x="258" y="192" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#e6edf3">5 SaaS in production · 2 packages on PyPI</text>
+</g>
+<g opacity="0" transform="translate(-6,0)"><animate attributeName="opacity" from="0" to="1" begin="0.78s" dur="0.35s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="-6 0" to="0 0" begin="0.78s" dur="0.35s" fill="freeze"/>
+<text x="160" y="213" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#2f81f7" font-weight="600" letter-spacing="1.6">study</text>
+<text x="258" y="213" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#e6edf3">BSc artificial intelligence &amp; big data — 3rd year</text>
+</g>
+<g opacity="0" transform="translate(-6,0)"><animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.35s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="-6 0" to="0 0" begin="0.85s" dur="0.35s" fill="freeze"/>
+<text x="160" y="234" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#2f81f7" font-weight="600" letter-spacing="1.6">oss</text>
+<text x="258" y="234" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#e6edf3">36 prs on 11 external repos · 10 merged</text>
+</g>
+<g opacity="0" transform="translate(-6,0)"><animate attributeName="opacity" from="0" to="1" begin="0.93s" dur="0.35s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="-6 0" to="0 0" begin="0.93s" dur="0.35s" fill="freeze"/>
+<text x="160" y="255" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#2f81f7" font-weight="600" letter-spacing="1.6">stack</text>
+<text x="258" y="255" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#e6edf3">TypeScript · Python · Next.js · Laravel · Postgres</text>
+</g>
+<g opacity="0" transform="translate(-6,0)"><animate attributeName="opacity" from="0" to="1" begin="1.00s" dur="0.35s" fill="freeze"/>
+<animateTransform attributeName="transform" type="translate" from="-6 0" to="0 0" begin="1.00s" dur="0.35s" fill="freeze"/>
+<text x="160" y="276" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#2f81f7" font-weight="600" letter-spacing="1.6">pypi</text>
+<text x="258" y="276" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#e6edf3">project-oracle 2.3.0 · memory-vault 0.2.0 · 436 dl / 30d</text>
+</g>
+<text x="660" y="150" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#909dab" font-weight="600" letter-spacing="1.6">LAST 30 DAYS</text>
+<text x="832" y="152" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="18" fill="#e6edf3" text-anchor="end" font-weight="700">101</text>
+<line x1="660" y1="272" x2="832" y2="272" stroke="#1b2430"/>
+<g transform="translate(660.0,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.75s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(665.7,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.77s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(671.5,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.79s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(677.2,272)"><rect x="0" y="-18.6" width="3.7" height="18.6" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.81s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(682.9,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.83s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(688.7,272)"><rect x="0" y="-3.1" width="3.7" height="3.1" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.85s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(694.4,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.87s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(700.1,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.89s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(705.9,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.91s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(711.6,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.93s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(717.3,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.95s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(723.1,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.97s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(728.8,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.99s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(734.5,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.01s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(740.3,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.03s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(746.0,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.05s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(751.7,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.07s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(757.5,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.09s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(763.2,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.11s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(768.9,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.13s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(774.7,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.15s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(780.4,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.17s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(786.1,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.19s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(791.9,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.21s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(797.6,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.23s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(803.3,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.25s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(809.1,272)"><rect x="0" y="-8.3" width="3.7" height="8.3" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.27s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(814.8,272)"><rect x="0" y="-10.4" width="3.7" height="10.4" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.29s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(820.5,272)"><rect x="0" y="-58.0" width="3.7" height="58.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.31s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(826.3,272)"><rect x="0" y="-5.2" width="3.7" height="5.2" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.33s" dur="0.4s" fill="freeze"/></rect></g>
+<text x="842" y="289" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">updated 2026-11-13</text>
 </svg>

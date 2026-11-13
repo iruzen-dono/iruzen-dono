@@ -1,12 +1,10 @@
 <div align="center">
-  <img src="assets/header.svg" alt="Terminal session — jules, tools for AI agents" width="860" />
+  <img src="assets/header.svg?v=202611131354" alt="jules zhou — full-stack developer, AI agent tooling" width="860" />
 </div>
 
-I build **tooling for AI coding agents** and ship indie SaaS from Lomé, Togo.
+**Full-stack developer and indie hacker** in Lomé, Togo — final year of a BSc in Artificial Intelligence & Big Data, open to international remote work.
 
-Most of my work sits on the unglamorous half of agent reliability: hand the model the right context, then fail the build the moment that context stops being true.
-
-**Shipping now:** `hermes-project-oracle` 2.3.0 — generate `AGENTS.md`/`CLAUDE.md` from a repo, detect drift in CI, score the file for rules the code cannot actually verify.
+I design and operate SaaS products end to end — database, API, UI, billing — and build open-source tooling for AI agents in Python. Most of that tooling sits on the unglamorous half of agent reliability: hand the model the right context, then fail the build the moment that context stops being true.
 
 ---
 
@@ -14,63 +12,75 @@ Most of my work sits on the unglamorous half of agent reliability: hand the mode
 
 | Project | The problem it solves | Install |
 | :--- | :--- | :--- |
-| [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) | Context files rot silently. Scan the repo → generate the context file → `oracle-check` fails CI on drift → `oracle-lint` flags unfalsifiable rules. | `pip install hermes-project-oracle` |
+| [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) | Context files rot silently. Scan the repo → generate `AGENTS.md`/`CLAUDE.md` → `oracle-check` fails CI on drift → `oracle-lint` flags rules the code cannot verify. | `pip install hermes-project-oracle` |
 | [**memory-vault**](https://github.com/iruzen-dono/memory-vault) | Sessions disappear into chat history. Packs them into portable `.hermes-memory` context packs. | `pip install hermes-memory-vault` |
 | [**hermes-plugin-gen**](https://github.com/iruzen-dono/hermes-plugin-gen) | Writing a Hermes Agent plugin by hand. Generates a working scaffold from a description. | — |
-| [**workless**](https://github.com/iruzen-dono/workless) | Workflow automation you can self-host: visual DAG builder, webhooks, scheduling (Laravel + Next.js + React Flow). | — |
+| [**workless**](https://github.com/iruzen-dono/workless) | Workflow automation you can self-host — a Zapier/Make alternative with a real execution engine. | — |
 | [**portfolio-terminal**](https://github.com/iruzen-dono/portfolio-terminal) | A portfolio that is not a dashboard template — 30+ commands, virtual filesystem, fr/en. | [live](https://portfolio-terminal-lake.vercel.app) |
 
-### SaaS
+### SaaS in production
 
-Product work lives in private repos. The public one:
+| Product | What ships | Stack |
+| :--- | :--- | :--- |
+| **Quotask** | Quoting and invoicing: PDF generation, proposal templates, e-signature, Stripe + Lemon Squeezy billing | Next.js 16 · Drizzle · Turso |
+| **LandlordKit** | Rental management: tenant portal, recurring rent collection, lease expiry alerts, analytics | Next.js 16 · Neon · Resend |
+| **TradeQuote** | Quoting for service businesses: line items, configurable VAT, public accept/decline | Next.js 16 · React 19 · Neon |
+| [**XEARN**](https://github.com/iruzen-dono/XEARN) | Pan-African micro-earning platform: 40+ endpoints, 99 automated tests, gamification, admin panel | NestJS 11 · Next.js 15 · Expo |
+| [**Workless**](https://github.com/iruzen-dono/workless) | Self-hosted workflow engine: React Flow builder, DAG execution, webhooks, scheduling | Laravel 11 · Next.js 15 · Redis |
 
-- [**XEARN**](https://github.com/iruzen-dono/XEARN) — pan-African digital micro-income platform. NestJS 11 + Next.js 15 + Expo, 40+ endpoints, mobile money payments.
+Three of them live in private repos — no links on purpose rather than dead ones.
 
-Private: **Quotask** (proposals & invoicing, Lemon Squeezy billing) · **LandlordKit** (rental management, 1–10 units) · **TradeQuote** (quoting with line items, tax, PDF, public accept/decline). All Next.js + Drizzle + Neon.
+---
+
+### Open source
+
+Targeted fixes in codebases I had no prior familiarity with: read the file, find the actual cause, send the smallest patch that holds.
+
+| Repository | Contributions |
+| :--- | :--- |
+| [**medusajs/medusa**](https://github.com/medusajs/medusa/pull/16006) | `#16006` **merged** — admin: handle deleted stock locations in the order fulfillment section |
+| [**neomjs/neo**](https://github.com/neomjs/neo/pulls?q=is%3Apr+author%3Airuzen-dono) | 2 **merged** — curation window for held issues, count published when a batched update closes |
+| [**hermes-browser-extension**](https://github.com/abundantbeing/hermes-browser-extension/pulls?q=is%3Apr+author%3Airuzen-dono) | 6 **merged** — multi-tab context picker, slash commands, DOM chip states, ESLint/Prettier, subagent results, model picker |
+| [**keisary/KeycePass**](https://github.com/keisary/KeycePass/pull/1) | `#1` **merged** — password manager fix |
+| [**FlowiseAI/Flowise**](https://github.com/FlowiseAI/Flowise/pulls?q=is%3Apr+author%3Airuzen-dono) | 5 opened — Docker tag pinning, variable names in `overrideConfig`, RediSearch escaping, duplicate chatflow on rapid save |
+| [**NVIDIA/auto-ontology**](https://github.com/NVIDIA/auto-ontology/pulls?q=is%3Apr+author%3Airuzen-dono) · [**meta/prophet**](https://github.com/facebook/prophet/pull/2784) | open — non-ASCII and CSV handling, plus a `cmdstanpy` pin so Windows builds stop fetching a retired Rtools URL |
+
+Also PRs in **directus**, **saleor**, **posthog**, **dify**.
 
 ---
 
 ### GitHub
 
-<img src="assets/stats.svg?v=202611131314" alt="Contributions, merged pull requests, public repositories and PyPI downloads" width="800" />
+<img src="assets/stats.svg?v=202611131354" alt="Twelve-month contributions, commits, merged PRs, repositories, external PRs and PyPI downloads" width="860" />
 
-<img src="assets/heatmap.svg?v=202611131314" alt="Contribution heatmap for the last 12 months" width="800" />
+<img src="assets/activity.svg?v=202611131354" alt="Weekly contributions over 53 weeks with current and longest streaks" width="860" />
 
-<img src="assets/langs.svg?v=202611131314" alt="Language breakdown by bytes across public repositories" width="800" />
+<img src="assets/heatmap.svg?v=202611131354" alt="Contribution calendar for the last twelve months" width="860" />
 
-<sub>Cards are generated from the GitHub and PyPI APIs by [`scripts/readme_stats.py`](scripts/readme_stats.py) and refreshed every day — no third-party widget that can go down or start charging.</sub>
+<img src="assets/signals.svg?v=202611131354" alt="Commits by weekday and hour, and language split by bytes" width="860" />
 
----
-
-### Open source · merged upstream
-
-| Repo | Pull requests |
-| :--- | :--- |
-| [**medusajs/medusa**](https://github.com/medusajs/medusa/pull/16006) | `#16006` — admin: handle deleted stock locations in the order fulfillment section |
-| [**neomjs/neo**](https://github.com/neomjs/neo/pulls?q=is%3Apr+author%3Airuzen-dono+is%3Amerged) | `#20834` — hold a curated issue for three days, not seven · `#20839` — publish count when a batched update closes |
-| [**hermes-browser-extension**](https://github.com/abundantbeing/hermes-browser-extension/pulls?q=is%3Apr+author%3Airuzen-dono+is%3Amerged) | 6 merged: multi-tab context picker, slash commands, DOM chip states, ESLint/Prettier, delegation results, model picker |
-| [**keisary/KeycePass**](https://github.com/keisary/KeycePass/pull/1) | `#1` — password manager fix |
-| [**meta/prophet**](https://github.com/facebook/prophet/pull/2784) | `#2784` — open: require `cmdstanpy` 1.3.2 so Windows source builds stop fetching a retired Rtools URL |
-
-### Recent activity
-
-- `2026-11-13` — **neomjs/neo**: batched collection updates now publish their count when they close
-- `2026-11-12` — **hermes-project-oracle 2.3.0**: `oracle-lint` sorts every rule into confirmed, contradicted, or unfalsifiable
-- `2026-11-12` — CI on **workless** (Laravel suite against PostgreSQL 16 + Next.js build), **trade-quote** and **portfolio-terminal**
-- `2026-11-12` — **portfolio-terminal**: résumé as a downloadable PDF in three variants, plus an Open Graph image
-- `2026-11-12` — **hermes-memory-vault 0.2.0** on PyPI via Trusted Publishing, no stored token
-- `2026-08-15` — **medusajs/medusa**: deleted stock locations no longer break the fulfillment panel
+<sub>Every card is generated from the GitHub and PyPI APIs by [`scripts/readme_cards.py`](scripts/readme_cards.py) and committed as SVG by a daily workflow — no third-party widget, no hosted badge service that can disappear.</sub>
 
 ---
 
-<sub>Python · TypeScript · Next.js · NestJS · Laravel · React · Expo · PostgreSQL · Drizzle · Prisma · Docker · Neon · Stripe</sub>
+### Background
+
+**Experience** — independent since `2024-11`: five commercialised products, plus freelance technical and UX/UI audits of hotel group sites in Lomé (Sarakawa Hotel, Hôtel 2 Février). Open-source contributor since `2025-06`.
+
+**Education** — BSc Artificial Intelligence & Big Data, Ascencia Keyce Togo (2026 → present) · two-year Computer Science & Software Engineering programme, Collège de Paris Supérieur (2023 → 2025) · Baccalauréat série C, mathematics & physics (2023).
+
+**Languages** — French (native) · English (professional: code review, documentation, upstream discussions).
+
+**Availability** — remote, worldwide, UTC±0.
+
+---
 
 ### Reach me
 
+- Mail — [juleszhou01@gmail.com](mailto:juleszhou01@gmail.com)
 - X — [@iruzendono](https://twitter.com/iruzendono)
 - Discord `@iruzenn` · Telegram `@Am_The_CEO`
-- An agent answers for me — [@Comphermes_bot](https://t.me/Comphermes_bot)
-- Lomé, Togo 🇹🇬
+- An agent answers for me when I'm heads-down — [@Comphermes_bot](https://t.me/Comphermes_bot)
 
 <div align="center">
   <sub>
