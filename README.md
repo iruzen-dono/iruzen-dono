@@ -32,11 +32,11 @@ Private: **Quotask** (proposals & invoicing, Lemon Squeezy billing) · **Landlor
 
 ### GitHub
 
-<img src="assets/stats.svg?v=202611131310" alt="Contributions, merged pull requests, public repositories and PyPI downloads" width="800" />
+<img src="assets/stats.svg?v=202611131314" alt="Contributions, merged pull requests, public repositories and PyPI downloads" width="800" />
 
-<img src="assets/heatmap.svg?v=202611131310" alt="Contribution heatmap for the last 12 months" width="800" />
+<img src="assets/heatmap.svg?v=202611131314" alt="Contribution heatmap for the last 12 months" width="800" />
 
-<img src="assets/langs.svg?v=202611131310" alt="Language breakdown by bytes across public repositories" width="800" />
+<img src="assets/langs.svg?v=202611131314" alt="Language breakdown by bytes across public repositories" width="800" />
 
 <sub>Cards are generated from the GitHub and PyPI APIs by [`scripts/readme_stats.py`](scripts/readme_stats.py) and refreshed every day — no third-party widget that can go down or start charging.</sub>
 
