@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/header.svg?v=202611131354" alt="jules zhou — full-stack developer, AI agent tooling" width="860" />
+  <img src="assets/header.svg?v=202611131355" alt="jules zhou — full-stack developer, AI agent tooling" width="860" />
 </div>
 
 **Full-stack developer and indie hacker** in Lomé, Togo — final year of a BSc in Artificial Intelligence & Big Data, open to international remote work.
@@ -51,13 +51,13 @@ Also PRs in **directus**, **saleor**, **posthog**, **dify**.
 
 ### GitHub
 
-<img src="assets/stats.svg?v=202611131354" alt="Twelve-month contributions, commits, merged PRs, repositories, external PRs and PyPI downloads" width="860" />
+<img src="assets/stats.svg?v=202611131355" alt="Twelve-month contributions, commits, merged PRs, repositories, external PRs and PyPI downloads" width="860" />
 
-<img src="assets/activity.svg?v=202611131354" alt="Weekly contributions over 53 weeks with current and longest streaks" width="860" />
+<img src="assets/activity.svg?v=202611131355" alt="Weekly contributions over 53 weeks with current and longest streaks" width="860" />
 
-<img src="assets/heatmap.svg?v=202611131354" alt="Contribution calendar for the last twelve months" width="860" />
+<img src="assets/heatmap.svg?v=202611131355" alt="Contribution calendar for the last twelve months" width="860" />
 
-<img src="assets/signals.svg?v=202611131354" alt="Commits by weekday and hour, and language split by bytes" width="860" />
+<img src="assets/signals.svg?v=202611131355" alt="Commits by weekday and hour, and language split by bytes" width="860" />
 
 <sub>Every card is generated from the GitHub and PyPI APIs by [`scripts/readme_cards.py`](scripts/readme_cards.py) and committed as SVG by a daily workflow — no third-party widget, no hosted badge service that can disappear.</sub>
 

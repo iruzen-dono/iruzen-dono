@@ -49,7 +49,7 @@
 <text x="258" y="276" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" fill="#e6edf3">project-oracle 2.3.0 · memory-vault 0.2.0 · 436 dl / 30d</text>
 </g>
 <text x="660" y="150" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#909dab" font-weight="600" letter-spacing="1.6">LAST 30 DAYS</text>
-<text x="832" y="152" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="18" fill="#e6edf3" text-anchor="end" font-weight="700">101</text>
+<text x="832" y="152" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="18" fill="#e6edf3" text-anchor="end" font-weight="700">102</text>
 <line x1="660" y1="272" x2="832" y2="272" stroke="#1b2430"/>
 <g transform="translate(660.0,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.75s" dur="0.4s" fill="freeze"/></rect></g>
 <g transform="translate(665.7,272)"><rect x="0" y="-2.0" width="3.7" height="2.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="0.77s" dur="0.4s" fill="freeze"/></rect></g>
@@ -80,6 +80,6 @@
 <g transform="translate(809.1,272)"><rect x="0" y="-8.3" width="3.7" height="8.3" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.27s" dur="0.4s" fill="freeze"/></rect></g>
 <g transform="translate(814.8,272)"><rect x="0" y="-10.4" width="3.7" height="10.4" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.29s" dur="0.4s" fill="freeze"/></rect></g>
 <g transform="translate(820.5,272)"><rect x="0" y="-58.0" width="3.7" height="58.0" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.31s" dur="0.4s" fill="freeze"/></rect></g>
-<g transform="translate(826.3,272)"><rect x="0" y="-5.2" width="3.7" height="5.2" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.33s" dur="0.4s" fill="freeze"/></rect></g>
+<g transform="translate(826.3,272)"><rect x="0" y="-6.2" width="3.7" height="6.2" rx="1" fill="#2f81f7" fill-opacity="0.85" transform="scale(1,0)"><animateTransform attributeName="transform" type="scale" values="1,0;1,1" begin="1.33s" dur="0.4s" fill="freeze"/></rect></g>
 <text x="842" y="289" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">updated 2026-11-13</text>
 </svg>
