@@ -187,19 +187,19 @@
 <text x="504" y="30" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" font-weight="600" letter-spacing="1.6">WHAT I WRITE</text>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.35s" dur="0.45s" fill="freeze"/><text x="504" y="66" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#e6edf3">TypeScript</text>
 <text x="608" y="66" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="8" fill="#59636e" text-anchor="end">3 repos</text>
-<rect x="624" y="56" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="56" width="64.2" height="9" rx="4.5" fill="#3178c6"/><text x="844" y="65" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">44%</text>
+<rect x="624" y="56" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="56" width="64.0" height="9" rx="4.5" fill="#3178c6"/><text x="844" y="65" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">44%</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.40s" dur="0.45s" fill="freeze"/><text x="504" y="96" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#e6edf3">Python</text>
 <text x="608" y="96" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="8" fill="#59636e" text-anchor="end">4 repos</text>
-<rect x="624" y="86" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="86" width="25.0" height="9" rx="4.5" fill="#3572a5"/><text x="844" y="95" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">17%</text>
+<rect x="624" y="86" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="86" width="25.5" height="9" rx="4.5" fill="#3572a5"/><text x="844" y="95" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">17%</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="0.45s" fill="freeze"/><text x="504" y="126" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#e6edf3">PHP</text>
 <text x="608" y="126" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="8" fill="#59636e" text-anchor="end">1 repo</text>
-<rect x="624" y="116" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="116" width="24.8" height="9" rx="4.5" fill="#4f5d95"/><text x="844" y="125" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">17%</text>
+<rect x="624" y="116" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="116" width="24.7" height="9" rx="4.5" fill="#4f5d95"/><text x="844" y="125" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">17%</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.50s" dur="0.45s" fill="freeze"/><text x="504" y="156" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#e6edf3">CSS</text>
 <text x="608" y="156" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="8" fill="#59636e" text-anchor="end">0 repos</text>
-<rect x="624" y="146" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="146" width="8.1" height="9" rx="4.5" fill="#663399"/><text x="844" y="155" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">6%</text>
+<rect x="624" y="146" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="146" width="8.0" height="9" rx="4.5" fill="#663399"/><text x="844" y="155" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">5%</text>
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.45s" fill="freeze"/><text x="504" y="186" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#e6edf3">JavaScript</text>
 <text x="608" y="186" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="8" fill="#59636e" text-anchor="end">1 repo</text>
@@ -211,7 +211,7 @@
 </g>
 <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.65s" dur="0.45s" fill="freeze"/><text x="504" y="246" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="10" fill="#e6edf3">Java</text>
 <text x="608" y="246" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="8" fill="#59636e" text-anchor="end">1 repo</text>
-<rect x="624" y="236" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="236" width="5.8" height="9" rx="4.5" fill="#b07219"/><text x="844" y="245" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">4%</text>
+<rect x="624" y="236" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="236" width="5.7" height="9" rx="4.5" fill="#b07219"/><text x="844" y="245" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">4%</text>
 </g>
-<text x="842" y="289" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">updated 2026-11-13</text>
+<text x="842" y="289" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">updated 2026-11-14</text>
 </svg>

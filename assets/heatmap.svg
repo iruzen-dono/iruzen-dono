@@ -2,7 +2,7 @@
 <rect x="0.5" y="0.5" width="859" height="209" rx="10" fill="#0d1117" stroke="#232c38"/>
 <rect x="0.5" y="0.5" width="3" height="209" rx="1.5" fill="#2f81f7"/>
 <text x="30" y="26" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" font-weight="600" letter-spacing="1.6">CONTRIBUTION CALENDAR</text>
-<text x="830" y="26" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">385 in the last year</text>
+<text x="830" y="26" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">397 in the last year</text>
 <text x="44" y="50" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e">nov</text>
 <text x="100" y="50" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e">dec</text>
 <text x="170" y="50" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e">jan</text>
@@ -283,7 +283,7 @@
 <rect x="576" y="76" width="11" height="11" rx="2" fill="#141b24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.83s" dur="0.28s" fill="freeze"/></rect>
 <rect x="576" y="90" width="11" height="11" rx="2" fill="#141b24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.83s" dur="0.28s" fill="freeze"/></rect>
 <rect x="576" y="104" width="11" height="11" rx="2" fill="#141b24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.84s" dur="0.28s" fill="freeze"/></rect>
-<rect x="576" y="118" width="11" height="11" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.84s" dur="0.28s" fill="freeze"/></rect>
+<rect x="576" y="118" width="11" height="11" rx="2" fill="#26a641" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.84s" dur="0.28s" fill="freeze"/></rect>
 <rect x="576" y="132" width="11" height="11" rx="2" fill="#141b24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.84s" dur="0.28s" fill="freeze"/></rect>
 <rect x="576" y="146" width="11" height="11" rx="2" fill="#141b24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.84s" dur="0.28s" fill="freeze"/></rect>
 <rect x="590" y="62" width="11" height="11" rx="2" fill="#141b24" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.28s" fill="freeze"/></rect>
@@ -388,7 +388,8 @@
 <rect x="786" y="76" width="11" height="11" rx="2" fill="#26a641" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.12s" dur="0.28s" fill="freeze"/></rect>
 <rect x="786" y="90" width="11" height="11" rx="2" fill="#26a641" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.28s" fill="freeze"/></rect>
 <rect x="786" y="104" width="11" height="11" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.28s" fill="freeze"/></rect>
-<rect x="786" y="118" width="11" height="11" rx="2" fill="#006d32" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.28s" fill="freeze"/></rect>
+<rect x="786" y="118" width="11" height="11" rx="2" fill="#39d353" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.13s" dur="0.28s" fill="freeze"/></rect>
+<rect x="786" y="132" width="11" height="11" rx="2" fill="#0e4429" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.14s" dur="0.28s" fill="freeze"/></rect>
 <text x="717" y="187" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="8" fill="#59636e">quiet</text>
 <rect x="725" y="176" width="11" height="11" rx="2" fill="#141b24" stroke="#1b2430"/>
 <rect x="740" y="176" width="11" height="11" rx="2" fill="#0e4429" stroke="#1b2430"/>
@@ -396,5 +397,5 @@
 <rect x="770" y="176" width="11" height="11" rx="2" fill="#26a641" stroke="#1b2430"/>
 <rect x="785" y="176" width="11" height="11" rx="2" fill="#39d353" stroke="#1b2430"/>
 <text x="806" y="187" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="8" fill="#59636e">loud</text>
-<text x="842" y="199" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">updated 2026-11-13</text>
+<text x="842" y="199" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">updated 2026-11-14</text>
 </svg>
