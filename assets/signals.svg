@@ -2,7 +2,7 @@
 <rect x="0.5" y="0.5" width="859" height="299" rx="10" fill="#0d1117" stroke="#232c38"/>
 <rect x="0.5" y="0.5" width="3" height="299" rx="1.5" fill="#2f81f7"/>
 <text x="30" y="30" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" font-weight="600" letter-spacing="1.6">WHEN I COMMIT</text>
-<text x="452" y="30" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">278 commits</text>
+<text x="452" y="30" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">279 commits</text>
 <text x="52" y="63" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="8" fill="#59636e" text-anchor="end">mon</text>
 <rect x="62" y="52" width="14" height="14" rx="2" fill="#2f81f7" fill-opacity="0.39" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.12s" dur="0.3s" fill="freeze"/></rect>
 <rect x="78" y="52" width="14" height="14" rx="2" fill="#2f81f7" fill-opacity="0.39" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.12s" dur="0.3s" fill="freeze"/></rect>
@@ -165,7 +165,7 @@
 <rect x="190" y="148" width="14" height="14" rx="2" fill="#141b24" fill-opacity="1.00" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.36s" dur="0.3s" fill="freeze"/></rect>
 <rect x="206" y="148" width="14" height="14" rx="2" fill="#141b24" fill-opacity="1.00" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.36s" dur="0.3s" fill="freeze"/></rect>
 <rect x="222" y="148" width="14" height="14" rx="2" fill="#2f81f7" fill-opacity="0.76" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.37s" dur="0.3s" fill="freeze"/></rect>
-<rect x="238" y="148" width="14" height="14" rx="2" fill="#2f81f7" fill-opacity="0.54" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.37s" dur="0.3s" fill="freeze"/></rect>
+<rect x="238" y="148" width="14" height="14" rx="2" fill="#2f81f7" fill-opacity="0.60" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.37s" dur="0.3s" fill="freeze"/></rect>
 <rect x="254" y="148" width="14" height="14" rx="2" fill="#2f81f7" fill-opacity="0.47" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.37s" dur="0.3s" fill="freeze"/></rect>
 <rect x="270" y="148" width="14" height="14" rx="2" fill="#2f81f7" fill-opacity="0.60" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.37s" dur="0.3s" fill="freeze"/></rect>
 <rect x="286" y="148" width="14" height="14" rx="2" fill="#2f81f7" fill-opacity="0.71" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.37s" dur="0.3s" fill="freeze"/></rect>
@@ -213,5 +213,5 @@
 <text x="608" y="246" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="8" fill="#59636e" text-anchor="end">1 repo</text>
 <rect x="624" y="236" width="146" height="9" rx="4.5" fill="#1b2430"/><rect x="624" y="236" width="5.7" height="9" rx="4.5" fill="#b07219"/><text x="844" y="245" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">4%</text>
 </g>
-<text x="842" y="289" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">updated 2026-11-14</text>
+<text x="842" y="289" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="9" fill="#59636e" text-anchor="end">updated 2026-11-15</text>
 </svg>
