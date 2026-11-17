@@ -12,7 +12,7 @@ I design and operate SaaS products end to end — database, API, UI, billing —
 
 | Project | The problem it solves | Install |
 | :--- | :--- | :--- |
-| [**hermes-project-oracle**](https://github.com/iruzen-dono/hermes-project-oracle) | Context files rot silently. Scan the repo → generate `AGENTS.md`/`CLAUDE.md` → `oracle-check` fails CI on drift → `oracle-lint` flags rules the code cannot verify. | `pip install hermes-project-oracle` |
+| [**project-oracle**](https://github.com/iruzen-dono/project-oracle) | Context files rot silently. Scan the repo → generate `AGENTS.md`/`CLAUDE.md` → `oracle-check` fails CI on drift → `oracle-lint` flags rules the code cannot verify. | `pip install project-oracle` |
 | [**memory-vault**](https://github.com/iruzen-dono/memory-vault) | Sessions disappear into chat history. Packs them into portable `.hermes-memory` context packs. | `pip install hermes-memory-vault` |
 | [**hermes-plugin-gen**](https://github.com/iruzen-dono/hermes-plugin-gen) | Writing a Hermes Agent plugin by hand. Generates a working scaffold from a description. | — |
 | [**workless**](https://github.com/iruzen-dono/workless) | Workflow automation you can self-host — a Zapier/Make alternative with a real execution engine. | — |
@@ -86,6 +86,6 @@ Also PRs in **directus**, **saleor**, **posthog**, **dify**.
   <sub>
     <a href="https://github.com/iruzen-dono?tab=repositories">All repos</a> ·
     <a href="https://portfolio-terminal-lake.vercel.app">Portfolio</a> ·
-    <a href="https://pypi.org/project/hermes-project-oracle/">PyPI</a>
+    <a href="https://pypi.org/project/project-oracle/">PyPI</a>
   </sub>
 </div>
