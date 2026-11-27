@@ -36,7 +36,7 @@ Three of them live in private repos — no links on purpose rather than dead one
 
 ### Open source
 
-55 pull requests, **21 merged in 9 of 19** external repositories — targeted fixes in codebases I had no prior familiarity with: read the file, find the actual cause, send the smallest patch that holds.
+55 pull requests, **21 merged in 9 of 19** external repositories (7 hermes-browser-extension, 5 neo.mjs, 3 dreamcoder, 1 each Medusa / NVIDIA / Meta Prophet / KeycePass) — targeted fixes in codebases I had no prior familiarity with: read the file, find the actual cause, send the smallest patch that holds.
 
 | Repository | Contributions |
 | :--- | :--- |
@@ -68,7 +68,7 @@ Also PRs in **directus**, **saleor**, **posthog**, **dify**.
 
 ### Background
 
-**Experience** — independent since `2024-11`: five products designed and built end to end, plus freelance technical and UX/UI audits of hotel group sites in Lomé (Sarakawa Hotel, Hôtel 2 Février). Open-source contributor since `2025-06`.
+**Experience** — independent since `2024-11`: five products designed and built end to end. Open-source contributor since `2025-06`.
 
 **Education** — BSc Artificial Intelligence & Big Data, Ascencia Keyce Togo (2026 → present) · two-year Computer Science & Software Engineering programme, Collège de Paris Supérieur (2023 → 2025) · Baccalauréat série C, mathematics & physics (2023).
 
